@@ -72,6 +72,13 @@ Windows (cmake-gui)
 4. Click the generate button
 5. If your generator is an IDE such as Visual Studio, then open up the newly created .sln file and build ``ALL_BUILD``. 
 
+Instructions
+============
+
+After running `./gloom/gloom`, you should get a screen with a reflecting sphere levitating over a big cube, with other spheres orbiting it. You can move around with WASD and turn around with the arrow keys. 
+
+If you look at a point on the reflecting cube, you may press SPACE to create a small dent in the surface, changing how the light and surroundings are reflected in the area around it. There is a cooldown on the dent-making at one second.
+
 Documentation
 =============
 
